@@ -1,6 +1,9 @@
 # Partition Destroyer
 
-⚠️ Tool to delete partitions and create partition tables for storage devices / drives with ease.
+Tool to delete partitions and create partitions tables for storage devices / drives with ease.
+
+## ⚠️ Warning
+Do not perform any disk-related operations (e.g., creating or deleting partitions) outside the tool while it is running.
 
 ## Requirements
 
