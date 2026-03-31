@@ -9,19 +9,17 @@ def main() -> int:
     if not core.is_super_user():
         return core.run_as_super_user()
 
-    print()
     print(
         """
         WARNING!
-        ----------------------------------------------------------------------------------------
-            DO NOT MANIPULATE THE SYSTEM WHILE THIS SCRIPT IS RUNNING!
-            THAT INCLUDES: DISK MANIPULATION (example: deleting and creating partitions)\n
-            EVERYTHING OUTSIDE THE SCRIPT SHOULD BE DONE BEFORE and AFTER USING THIS SCRIPT,
-            NOT WHILE ITS RUNNING!
-        ----------------------------------------------------------------------------------------
-        """,
-        sep="\n",
+        --------------------------------------------
+         DO NOT PERFORM ANY DISK-RELATED OPERATIONS
+         (E.G., CREATING OR DELETING PARTITIONS)
+         OUTSIDE THE TOOL WHILE IT IS RUNNING.
+        --------------------------------------------
+        """
     )
+    print()
 
     drive = core.request_drive()
 
