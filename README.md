@@ -7,7 +7,6 @@
 - Linux
 - Root privileges
 - Python 3
-- pyparted
 
 ## Setup
 ```bash
